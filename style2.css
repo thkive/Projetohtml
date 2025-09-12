@@ -1,0 +1,109 @@
+body{
+    background-image: linear-gradient(to bottom, #0986ad, #000848);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(6px);
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    position: top;
+    top: 0;
+    width: 99%;
+    border-radius: 30px;
+    border: 0;
+}
+
+.favs-section {
+    padding: 8px 10px;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(6px);
+    z-index: 50;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.favs-section h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.favs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.fav {
+  background: rgba(255,255,255,0.05);
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+.fav:hover {
+  transform: translateY(-8px);
+  background: rgba(255,255,255,0.1);
+}
+
+.fav img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.fav h3 {
+  color: #297dbf;
+  margin-bottom: 10px;
+}
+
+.narutos-section {
+    padding: 8px 10px;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(6px);
+    z-index: 50;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.narutos-section h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.narutos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.naruto {
+  background: rgba(255,255,255,0.05);
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+.naruto:hover {
+  transform: translateY(-8px);
+  background: rgba(255,255,255,0.1);
+}
+
+.naruto img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.naruto h3 {
+  color: #297dbf;
+  margin-bottom: 10px;
+}
+    
+
