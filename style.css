@@ -100,6 +100,10 @@ body {
   transform: scale(1.05);
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* ===== Cards ===== */
 .cards-section {
   padding: 60px 50px;
@@ -140,3 +144,4 @@ body {
   color: #297dbf;
   margin-bottom: 10px;
 }
+
