@@ -53,7 +53,7 @@ body {
 /* ===== Hero ===== */
 .hero {
   height: 100vh;
-  background: url("tanjiro-kamado-3840x2160-23027.jpg") no-repeat center center/cover;
+  background: url("https://images.alphacoders.com/136/1363137.png") no-repeat center center/cover;
   position: relative;
   display: flex;
   align-items: center;
